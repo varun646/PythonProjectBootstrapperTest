@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------------
 # |
-# |  Copyright (c) 2024 varun narayan
+# |  Copyright (c) 2024 Varun Narayan
 # |  Distributed under the MIT License.
 # |
 # ----------------------------------------------------------------------
@@ -38,7 +38,7 @@ app = typer.Typer(
 # ----------------------------------------------------------------------
 this_dir = PathEx.EnsureDir(Path(__file__).parent)
 src_dir = PathEx.EnsureDir(this_dir / "src")
-package_dir = PathEx.EnsureDir(src_dir / "pyprjbtstrptst")
+package_dir = PathEx.EnsureDir(src_dir / "pyprjbtsttst1")
 tests_dir = PathEx.EnsureDir(this_dir / "tests")
 
 

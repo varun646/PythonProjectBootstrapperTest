@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------------
 # |
-# |  Copyright (c) 2024 varun narayan
+# |  Copyright (c) 2024 Varun Narayan
 # |  Distributed under the MIT License.
 # |
 # ----------------------------------------------------------------------
@@ -59,7 +59,7 @@ jobs:
 
     uses: davidbrownell/dbrownell_DevTools/.github/workflows/callable_package_python_coverage.yaml@CI-v0.15.2
     with:
-      gist_id: 2f9d770d13e3a148424f374f74d41f4b
+      gist_id: 7e06eb4c2052ef851ef33cb95226f16c
       gist_filename: PythonProjectBootstrapperTest_coverage.json
     secrets:
       GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
@@ -117,7 +117,7 @@ jobs:
     with:
       operating_system: ${{ matrix.os }}
       python_version: ${{ matrix.python_version }}
-      validation_command: python -c "from pyprjbtstrptst import __version__; print(__version__)"
+      validation_command: python -c "from pyprjbtsttst1 import __version__; print(__version__)"
 
   # ----------------------------------------------------------------------
   create_binary:
@@ -164,35 +164,8 @@ jobs:
     with:
       operating_system: ${{ matrix.os }}
       python_version: ${{ matrix.python_version }}
-      validation_command: pyprjbtstrptst Version
+      validation_command: pyprjbtsttst1 Version
 
-
-# ----------------------------------------------------------------------
-  create_docker_image:
-    needs: validate
-
-    strategy:
-      fail-fast: false
-
-      matrix:
-        python_version:
-          - "3.12"
-          - "3.11"
-          - "3.10"
-          # - "3.9"  # Not supported
-          # - "3.8"  # Not supported
-
-    name: Create Docker Image
-
-    uses: davidbrownell/dbrownell_DevTools/.github/workflows/callable_create_docker_image.yaml@CI-v0.15.2
-    with:
-      operating_system: ubuntu-latest
-      python_version: ${{ matrix.python_version }}
-      name_suffix: -${{ matrix.python_version }}
-      bootstrap_args: ""
-      docker_description: "pyprjbtstrptst - ${{ matrix.python_version }}"
-      push_image_as_package: true
-      container_registry_username: varun646
 
 
   # ----------------------------------------------------------------------
@@ -200,8 +173,6 @@ jobs:
     needs:
       - validate_package
       - validate_binary
-
-      - create_docker_image
 
 
     name: Publish

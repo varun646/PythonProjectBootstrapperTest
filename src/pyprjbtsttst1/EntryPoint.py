@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------------
 # |
-# |  Copyright (c) 2024 varun narayan
+# |  Copyright (c) 2024 Varun Narayan
 # |  Distributed under the MIT License.
 # |
 # ----------------------------------------------------------------------
@@ -12,7 +12,7 @@ import typer
 
 from typer.core import TyperGroup  # type: ignore [import-untyped]
 
-from pyprjbtstrptst import Math, __version__
+from pyprjbtsttst1 import Math, __version__
 
 
 # ----------------------------------------------------------------------
