@@ -4,12 +4,12 @@
 [![Code Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/varun646/0af5eebfd0b0868fd7bb6919b4ce9c37/raw/PythonProjectBootstrapperTest_coverage.json)](https://github.com/varun646/PythonProjectBootstrapperTest/actions)
 [![License](https://img.shields.io/github/license/varun646/PythonProjectBootstrapperTest?color=dark-green)](https://github.com/varun646/PythonProjectBootstrapperTest/blob/master/LICENSE.txt)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/varun646/PythonProjectBootstrapperTest?color=dark-green)](https://github.com/varun646/PythonProjectBootstrapperTest/commits/main/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/PythonProjectBootstrapperTesting?color=dark-green)](https://pypi.org/project/pythonprojectbootstrappertesting/)
-[![PyPI - Version](https://img.shields.io/pypi/v/PythonProjectBootstrapperTesting?color=dark-green)](https://pypi.org/project/pythonprojectbootstrappertesting/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/PythonProjectBootstrapperTesting)](https://pypistats.org/packages/pythonprojectbootstrappertesting)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/PyProjTestBootstrp1?color=dark-green)](https://pypi.org/project/pyprojtestbootstrp1/)
+[![PyPI - Version](https://img.shields.io/pypi/v/PyProjTestBootstrp1?color=dark-green)](https://pypi.org/project/pyprojtestbootstrp1/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/PyProjTestBootstrp1)](https://pypistats.org/packages/pyprojtestbootstrp1)
 
 # PythonProjectBootstrapperTest
-Python project bootstrapper test output
+proj bootstrap testing
 
 ### Overview
 
@@ -28,9 +28,9 @@ Download an executable for Linux, MacOS, or Windows to use the functionality pro
 
 ## Installation via pip
 
-Install the PythonProjectBootstrapperTesting package via [pip](https://pip.pypa.io/en/stable/) (Package Installer for Python) to use it with your python code.
+Install the PyProjTestBootstrp1 package via [pip](https://pip.pypa.io/en/stable/) (Package Installer for Python) to use it with your python code.
 
-`pip install PythonProjectBootstrapperTesting`
+`pip install PyProjTestBootstrp1`
 
 ## Local Development
 
@@ -57,6 +57,8 @@ Follow these steps to prepare the repository for local development activities.
     | `package` | Creates a Python wheel package for distribution; outputs to the `/dist` directory. | `python Build.py package` | Requires `--package` when bootstrapping in step #2. |
     | `publish` | Publishes a Python wheel package to [PyPi](https://pypi.org/). | <p>https://test.pypi.org:<br/>`python Build.py publish`</p><p>https://pypi.org:<br/>`python Build.py publish --production`</p> | Requires `--package` when bootstrapping in step #2. |
     | `build_binary` | Builds an executable for your package that can be run on machines without a python installation; outputs to the `/build` directory. | `python Build.py build_binary` | Requires `--package` when bootstrapping in step #2. |
+    | `create_docker_image` | Creates a [Docker](https://www.docker.com/) image based on the current development environment. This supports the "Reusable" aspect of [FAIR principles](https://www.go-fair.org/fair-principles/) by creating a snapshot of the repository and all of its dependencies as they exist in a single moment in time. | `python Build.py create_docker_image` | Requires docker. |
+
 
 5) [Optional] Deactivate the development environment by running...
     | Operating System | Command |

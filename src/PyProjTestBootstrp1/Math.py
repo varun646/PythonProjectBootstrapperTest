@@ -4,26 +4,24 @@
 # |  Distributed under the MIT License.
 # |
 # ----------------------------------------------------------------------
-"""Unit tests for Math.py"""
-
-from PyProjTestBootstrp1.Math import *
+"""Basic math functions. This file illustrates how to create a python package that contains functions that can be invoked by other python code."""
 
 
 # ----------------------------------------------------------------------
-def test_Add():
-    assert Add(1, 20) == 21
+def Add(x, y):
+    return x + y
 
 
 # ----------------------------------------------------------------------
-def test_Sub():
-    assert Sub(1, 20) == -19
+def Sub(x, y):
+    return x - y
 
 
 # ----------------------------------------------------------------------
-def test_Mult():
-    assert Mult(2, 15) == 30
+def Mult(x, y):
+    return x * y
 
 
 # ----------------------------------------------------------------------
-def test_Div():
-    assert Div(6, 3) == 2
+def Div(x, y):
+    return x / y

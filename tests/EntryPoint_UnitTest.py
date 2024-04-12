@@ -8,8 +8,8 @@
 
 from typer.testing import CliRunner
 
-from PythonProjectBootstrapperTesting import __version__
-from PythonProjectBootstrapperTesting.EntryPoint import app
+from PyProjTestBootstrp1 import __version__
+from PyProjTestBootstrp1.EntryPoint import app
 
 
 # ----------------------------------------------------------------------
