@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/BuildBinary.py
+src/PyProjTestBootstrp1/EntryPoint.py
+src/PyProjTestBootstrp1/Math.py
+src/PyProjTestBootstrp1/__init__.py
+src/PyProjTestBootstrp1.egg-info/PKG-INFO
+src/PyProjTestBootstrp1.egg-info/SOURCES.txt
+src/PyProjTestBootstrp1.egg-info/dependency_links.txt
+src/PyProjTestBootstrp1.egg-info/entry_points.txt
+src/PyProjTestBootstrp1.egg-info/requires.txt
+src/PyProjTestBootstrp1.egg-info/top_level.txt
+src/PythonProjectBootstrapperTesting/EntryPoint.py
+src/PythonProjectBootstrapperTesting/Math.py
+src/PythonProjectBootstrapperTesting/__init__.py

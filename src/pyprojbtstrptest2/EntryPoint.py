@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------------
 # |
-# |  Copyright (c) 2024 Varun Narayan
+# |  Copyright (c) 2024 Varun
 # |  Distributed under the MIT License.
 # |
 # ----------------------------------------------------------------------
@@ -12,7 +12,7 @@ import typer
 
 from typer.core import TyperGroup  # type: ignore [import-untyped]
 
-from PyProjTestBootstrp1 import Math, __version__
+from pyprojbtstrptest2 import Math, __version__
 
 
 # ----------------------------------------------------------------------

@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------------
 # |
-# |  Copyright (c) 2024 Varun Narayan
+# |  Copyright (c) 2024 Varun
 # |  Distributed under the MIT License.
 # |
 # ----------------------------------------------------------------------
@@ -8,8 +8,8 @@
 
 from typer.testing import CliRunner
 
-from PyProjTestBootstrp1 import __version__
-from PyProjTestBootstrp1.EntryPoint import app
+from pyprojbtstrptest2 import __version__
+from pyprojbtstrptest2.EntryPoint import app
 
 
 # ----------------------------------------------------------------------

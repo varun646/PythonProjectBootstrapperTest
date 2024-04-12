@@ -1,15 +1,15 @@
 # PythonProjectBootstrapperTest
 
 [![CI](https://github.com/varun646/PythonProjectBootstrapperTest/actions/workflows/standard.yaml/badge.svg?event=push)](https://github.com/varun646/PythonProjectBootstrapperTest/actions/workflows/standard.yaml)
-[![Code Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/varun646/0af5eebfd0b0868fd7bb6919b4ce9c37/raw/PythonProjectBootstrapperTest_coverage.json)](https://github.com/varun646/PythonProjectBootstrapperTest/actions)
+[![Code Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/varun646/7e06eb4c2052ef851ef33cb95226f16c/raw/PythonProjectBootstrapperTest_coverage.json)](https://github.com/varun646/PythonProjectBootstrapperTest/actions)
 [![License](https://img.shields.io/github/license/varun646/PythonProjectBootstrapperTest?color=dark-green)](https://github.com/varun646/PythonProjectBootstrapperTest/blob/master/LICENSE.txt)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/varun646/PythonProjectBootstrapperTest?color=dark-green)](https://github.com/varun646/PythonProjectBootstrapperTest/commits/main/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/PyProjTestBootstrp1?color=dark-green)](https://pypi.org/project/pyprojtestbootstrp1/)
-[![PyPI - Version](https://img.shields.io/pypi/v/PyProjTestBootstrp1?color=dark-green)](https://pypi.org/project/pyprojtestbootstrp1/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/PyProjTestBootstrp1)](https://pypistats.org/packages/pyprojtestbootstrp1)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyprojbtstrptest2?color=dark-green)](https://pypi.org/project/pyprojbtstrptest2/)
+[![PyPI - Version](https://img.shields.io/pypi/v/pyprojbtstrptest2?color=dark-green)](https://pypi.org/project/pyprojbtstrptest2/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pyprojbtstrptest2)](https://pypistats.org/packages/pyprojbtstrptest2)
 
 # PythonProjectBootstrapperTest
-proj bootstrap testing
+py proj boot test
 
 ### Overview
 
@@ -28,9 +28,9 @@ Download an executable for Linux, MacOS, or Windows to use the functionality pro
 
 ## Installation via pip
 
-Install the PyProjTestBootstrp1 package via [pip](https://pip.pypa.io/en/stable/) (Package Installer for Python) to use it with your python code.
+Install the pyprojbtstrptest2 package via [pip](https://pip.pypa.io/en/stable/) (Package Installer for Python) to use it with your python code.
 
-`pip install PyProjTestBootstrp1`
+`pip install pyprojbtstrptest2`
 
 ## Local Development
 

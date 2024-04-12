@@ -1,12 +1,12 @@
 # ----------------------------------------------------------------------
 # |
-# |  Copyright (c) 2024 Varun Narayan
+# |  Copyright (c) 2024 Varun
 # |  Distributed under the MIT License.
 # |
 # ----------------------------------------------------------------------
 """Unit tests for Math.py"""
 
-from PyProjTestBootstrp1.Math import *
+from pyprojbtstrptest2.Math import *
 
 
 # ----------------------------------------------------------------------

@@ -11,4 +11,4 @@ Deactivate*.sh
 
 build/**
 dist/**
-src/PyProjTestBootstrp1.egg-info/**
+src/pyprojbtstrptest2.egg-info/**

@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------------
 # |
-# |  Copyright (c) 2024 Varun Narayan
+# |  Copyright (c) 2024 Varun
 # |  Distributed under the MIT License.
 # |
 # ----------------------------------------------------------------------
@@ -20,7 +20,7 @@ from dbrownell_Common import PathEx
 # ----------------------------------------------------------------------
 @cache
 def _GetName() -> str:
-    return "PyProjTestBootstrp1"
+    return "pyprojbtstrptest2"
 
 
 # ----------------------------------------------------------------------
@@ -51,7 +51,7 @@ def _GetCopyright() -> str:
 
     return textwrap.dedent(
         f"""\
-        Copyright (c) {initial_year}{year_suffix} Varun Narayan
+        Copyright (c) {initial_year}{year_suffix} Varun
 
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
