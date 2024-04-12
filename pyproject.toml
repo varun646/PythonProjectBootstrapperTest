@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------------
 # |
-# |  Copyright (c) 2024 Varun
+# |  Copyright (c) 2024 varun narayan
 # |  Distributed under the MIT License.
 # |
 # ----------------------------------------------------------------------
@@ -16,13 +16,13 @@ build-backend = "setuptools.build_meta"
 # |
 # ----------------------------------------------------------------------
 [project]
-name = "pyprojbtstrptest2"
-description = "py proj boot test"
+name = "pyprjbtstrptst"
+description = "python proj test bootstrap"
 
 license = { text = "MIT" }
 
 authors = [
-    { name = "Varun", email = "varun646@gmail.com" },
+    { name = "varun narayan", email = "varun646@gmail.com" },
 ]
 
 keywords = [
@@ -70,7 +70,7 @@ Documentation = "https://github.com/varun646/PythonProjectBootstrapperTest"
 Repository = "https://github.com/varun646/PythonProjectBootstrapperTest"
 
 [project.scripts]
-pyprojbtstrptest2 = "pyprojbtstrptest2:EntryPoint.app"
+pyprjbtstrptst = "pyprjbtstrptst:EntryPoint.app"
 
 
 # ----------------------------------------------------------------------
@@ -169,4 +169,4 @@ python_files = [
 # |
 # ----------------------------------------------------------------------
 [tool.setuptools.dynamic]
-version = { attr = "pyprojbtstrptest2.__version__" }
+version = { attr = "pyprjbtstrptst.__version__" }

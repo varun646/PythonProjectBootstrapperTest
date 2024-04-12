@@ -1,15 +1,15 @@
 # PythonProjectBootstrapperTest
 
 [![CI](https://github.com/varun646/PythonProjectBootstrapperTest/actions/workflows/standard.yaml/badge.svg?event=push)](https://github.com/varun646/PythonProjectBootstrapperTest/actions/workflows/standard.yaml)
-[![Code Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/varun646/7e06eb4c2052ef851ef33cb95226f16c/raw/PythonProjectBootstrapperTest_coverage.json)](https://github.com/varun646/PythonProjectBootstrapperTest/actions)
+[![Code Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/davidbrownell/2f9d770d13e3a148424f374f74d41f4b/raw/PythonProjectBootstrapperTest_coverage.json)](https://github.com/varun646/PythonProjectBootstrapperTest/actions)
 [![License](https://img.shields.io/github/license/varun646/PythonProjectBootstrapperTest?color=dark-green)](https://github.com/varun646/PythonProjectBootstrapperTest/blob/master/LICENSE.txt)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/varun646/PythonProjectBootstrapperTest?color=dark-green)](https://github.com/varun646/PythonProjectBootstrapperTest/commits/main/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyprojbtstrptest2?color=dark-green)](https://pypi.org/project/pyprojbtstrptest2/)
-[![PyPI - Version](https://img.shields.io/pypi/v/pyprojbtstrptest2?color=dark-green)](https://pypi.org/project/pyprojbtstrptest2/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/pyprojbtstrptest2)](https://pypistats.org/packages/pyprojbtstrptest2)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyprjbtstrptst?color=dark-green)](https://pypi.org/project/pyprjbtstrptst/)
+[![PyPI - Version](https://img.shields.io/pypi/v/pyprjbtstrptst?color=dark-green)](https://pypi.org/project/pyprjbtstrptst/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pyprjbtstrptst)](https://pypistats.org/packages/pyprjbtstrptst)
 
 # PythonProjectBootstrapperTest
-py proj boot test
+python proj test bootstrap
 
 ### Overview
 
@@ -28,9 +28,9 @@ Download an executable for Linux, MacOS, or Windows to use the functionality pro
 
 ## Installation via pip
 
-Install the pyprojbtstrptest2 package via [pip](https://pip.pypa.io/en/stable/) (Package Installer for Python) to use it with your python code.
+Install the pyprjbtstrptst package via [pip](https://pip.pypa.io/en/stable/) (Package Installer for Python) to use it with your python code.
 
-`pip install pyprojbtstrptest2`
+`pip install pyprjbtstrptst`
 
 ## Local Development
 

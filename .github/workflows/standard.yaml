@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------------
 # |
-# |  Copyright (c) 2024 Varun
+# |  Copyright (c) 2024 varun narayan
 # |  Distributed under the MIT License.
 # |
 # ----------------------------------------------------------------------
@@ -59,7 +59,7 @@ jobs:
 
     uses: davidbrownell/dbrownell_DevTools/.github/workflows/callable_package_python_coverage.yaml@CI-v0.15.2
     with:
-      gist_id: 7e06eb4c2052ef851ef33cb95226f16c
+      gist_id: 2f9d770d13e3a148424f374f74d41f4b
       gist_filename: PythonProjectBootstrapperTest_coverage.json
     secrets:
       GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
@@ -117,7 +117,7 @@ jobs:
     with:
       operating_system: ${{ matrix.os }}
       python_version: ${{ matrix.python_version }}
-      validation_command: python -c "from pyprojbtstrptest2 import __version__; print(__version__)"
+      validation_command: python -c "from pyprjbtstrptst import __version__; print(__version__)"
 
   # ----------------------------------------------------------------------
   create_binary:
@@ -164,7 +164,7 @@ jobs:
     with:
       operating_system: ${{ matrix.os }}
       python_version: ${{ matrix.python_version }}
-      validation_command: pyprojbtstrptest2 Version
+      validation_command: pyprjbtstrptst Version
 
 
 # ----------------------------------------------------------------------
@@ -190,7 +190,7 @@ jobs:
       python_version: ${{ matrix.python_version }}
       name_suffix: -${{ matrix.python_version }}
       bootstrap_args: ""
-      docker_description: "pyprojbtstrptest2 - ${{ matrix.python_version }}"
+      docker_description: "pyprjbtstrptst - ${{ matrix.python_version }}"
       push_image_as_package: true
       container_registry_username: varun646
 
