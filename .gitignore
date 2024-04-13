@@ -11,4 +11,4 @@ Deactivate*.sh
 
 build/**
 dist/**
-src/pyprjbtsttst1.egg-info/**
+src/pyprjbtstrptst.egg-info/**

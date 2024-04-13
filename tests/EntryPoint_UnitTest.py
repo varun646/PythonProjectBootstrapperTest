@@ -8,8 +8,8 @@
 
 from typer.testing import CliRunner
 
-from pyprjbtsttst1 import __version__
-from pyprjbtsttst1.EntryPoint import app
+from pyprjbtstrptst import __version__
+from pyprjbtstrptst.EntryPoint import app
 
 
 # ----------------------------------------------------------------------

@@ -59,7 +59,7 @@ jobs:
 
     uses: davidbrownell/dbrownell_DevTools/.github/workflows/callable_package_python_coverage.yaml@CI-v0.15.2
     with:
-      gist_id: 7e06eb4c2052ef851ef33cb95226f16c
+      gist_id: 7d3823a2d39ed7fedc159d1391c5f11f
       gist_filename: PythonProjectBootstrapperTest_coverage.json
     secrets:
       GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
@@ -117,7 +117,7 @@ jobs:
     with:
       operating_system: ${{ matrix.os }}
       python_version: ${{ matrix.python_version }}
-      validation_command: python -c "from pyprjbtsttst1 import __version__; print(__version__)"
+      validation_command: python -c "from pyprjbtstrptst import __version__; print(__version__)"
 
   # ----------------------------------------------------------------------
   create_binary:
@@ -164,7 +164,7 @@ jobs:
     with:
       operating_system: ${{ matrix.os }}
       python_version: ${{ matrix.python_version }}
-      validation_command: pyprjbtsttst1 Version
+      validation_command: pyprjbtstrptst Version
 
 
 

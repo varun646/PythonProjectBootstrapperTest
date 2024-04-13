@@ -12,7 +12,7 @@ import typer
 
 from typer.core import TyperGroup  # type: ignore [import-untyped]
 
-from pyprjbtsttst1 import Math, __version__
+from pyprjbtstrptst import Math, __version__
 
 
 # ----------------------------------------------------------------------
