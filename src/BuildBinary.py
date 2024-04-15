@@ -20,7 +20,7 @@ from dbrownell_Common import PathEx
 # ----------------------------------------------------------------------
 @cache
 def _GetName() -> str:
-    return "pyprjbtstrptst"
+    return "pyprjbtsttsting"
 
 
 # ----------------------------------------------------------------------

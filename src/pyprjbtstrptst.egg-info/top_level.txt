@@ -1,0 +1,6 @@
+BuildBinary
+PyProjTestBootstrp1
+PythonProjectBootstrapperTesting
+pyprjbtstrptst
+pyprjbtsttst1
+pyprojbtstrptest2

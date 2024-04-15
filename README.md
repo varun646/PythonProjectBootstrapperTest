@@ -1,15 +1,15 @@
 # PythonProjectBootstrapperTest
 
 [![CI](https://github.com/varun646/PythonProjectBootstrapperTest/actions/workflows/standard.yaml/badge.svg?event=push)](https://github.com/varun646/PythonProjectBootstrapperTest/actions/workflows/standard.yaml)
-[![Code Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/varun646/7d3823a2d39ed7fedc159d1391c5f11f/raw/PythonProjectBootstrapperTest_coverage.json)](https://github.com/varun646/PythonProjectBootstrapperTest/actions)
+[![Code Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/varun646/a63574d4ad61eb772554a9672fba4267/raw/PythonProjectBootstrapperTest_coverage.json)](https://github.com/varun646/PythonProjectBootstrapperTest/actions)
 [![License](https://img.shields.io/github/license/varun646/PythonProjectBootstrapperTest?color=dark-green)](https://github.com/varun646/PythonProjectBootstrapperTest/blob/master/LICENSE.txt)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/varun646/PythonProjectBootstrapperTest?color=dark-green)](https://github.com/varun646/PythonProjectBootstrapperTest/commits/main/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyprjbtstrptst?color=dark-green)](https://pypi.org/project/pyprjbtstrptst/)
-[![PyPI - Version](https://img.shields.io/pypi/v/pyprjbtstrptst?color=dark-green)](https://pypi.org/project/pyprjbtstrptst/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/pyprjbtstrptst)](https://pypistats.org/packages/pyprjbtstrptst)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyprjbtsttsting?color=dark-green)](https://pypi.org/project/pyprjbtsttsting/)
+[![PyPI - Version](https://img.shields.io/pypi/v/pyprjbtsttsting?color=dark-green)](https://pypi.org/project/pyprjbtsttsting/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pyprjbtsttsting)](https://pypistats.org/packages/pyprjbtsttsting)
 
 # PythonProjectBootstrapperTest
-python proj btstrp test
+Python proj btstrp test
 
 ### Overview
 
@@ -28,9 +28,9 @@ Download an executable for Linux, MacOS, or Windows to use the functionality pro
 
 ## Installation via pip
 
-Install the pyprjbtstrptst package via [pip](https://pip.pypa.io/en/stable/) (Package Installer for Python) to use it with your python code.
+Install the pyprjbtsttsting package via [pip](https://pip.pypa.io/en/stable/) (Package Installer for Python) to use it with your python code.
 
-`pip install pyprjbtstrptst`
+`pip install pyprjbtsttsting`
 
 ## Local Development
 

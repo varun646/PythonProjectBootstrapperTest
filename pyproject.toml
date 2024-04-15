@@ -16,8 +16,8 @@ build-backend = "setuptools.build_meta"
 # |
 # ----------------------------------------------------------------------
 [project]
-name = "pyprjbtstrptst"
-description = "python proj btstrp test"
+name = "pyprjbtsttsting"
+description = "Python proj btstrp test"
 
 license = { text = "MIT" }
 
@@ -70,7 +70,7 @@ Documentation = "https://github.com/varun646/PythonProjectBootstrapperTest"
 Repository = "https://github.com/varun646/PythonProjectBootstrapperTest"
 
 [project.scripts]
-pyprjbtstrptst = "pyprjbtstrptst:EntryPoint.app"
+pyprjbtsttsting = "pyprjbtsttsting:EntryPoint.app"
 
 
 # ----------------------------------------------------------------------
@@ -169,4 +169,4 @@ python_files = [
 # |
 # ----------------------------------------------------------------------
 [tool.setuptools.dynamic]
-version = { attr = "pyprjbtstrptst.__version__" }
+version = { attr = "pyprjbtsttsting.__version__" }

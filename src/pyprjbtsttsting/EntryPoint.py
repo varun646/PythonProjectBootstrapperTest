@@ -4,17 +4,15 @@
 # |  Distributed under the MIT License.
 # |
 # ----------------------------------------------------------------------
-"""Build tasks for this python project."""
+"""This file serves as an example of how to create scripts that can be invoked from the command line once the package is installed."""
 
 import sys
 
-from pathlib import Path
-
 import typer
 
-from dbrownell_Common import PathEx
-from dbrownell_DevTools.RepoBuildTools import Python as RepoBuildTools
-from typer.core import TyperGroup
+from typer.core import TyperGroup  # type: ignore [import-untyped]
+
+from pyprjbtsttsting import Math, __version__
 
 
 # ----------------------------------------------------------------------
@@ -36,51 +34,59 @@ app = typer.Typer(
 
 
 # ----------------------------------------------------------------------
-this_dir = PathEx.EnsureDir(Path(__file__).parent)
-src_dir = PathEx.EnsureDir(this_dir / "src")
-package_dir = PathEx.EnsureDir(src_dir / "pyprjbtsttsting")
-tests_dir = PathEx.EnsureDir(this_dir / "tests")
+@app.command("Add")
+def Add(
+    x: int,
+    y: int,
+) -> None:
+    """Adds 2 values."""
+
+    sys.stdout.write(str(Math.Add(x, y)))
 
 
 # ----------------------------------------------------------------------
-Black = RepoBuildTools.BlackFuncFactory(this_dir, app)
+@app.command("Sub")
+def Sub(
+    x: int,
+    y: int,
+) -> None:
+    """Subtracts 2 values."""
 
-Pylint = RepoBuildTools.PylintFuncFactory(
-    package_dir,
-    app,
-    default_min_score=9.5,
-)
+    sys.stdout.write(str(Math.Sub(x, y)))
 
-Pytest = RepoBuildTools.PytestFuncFactory(
-    tests_dir,
-    package_dir.name,
-    app,
-    default_min_coverage=90.0,
-)
 
-UpdateVersion = RepoBuildTools.UpdateVersionFuncFactory(
-    src_dir,
-    PathEx.EnsureFile(package_dir / "__init__.py"),
-    app,
-)
+# ----------------------------------------------------------------------
+@app.command("Mult")
+def Mult(
+    x: int,
+    y: int,
+) -> None:
+    """Multiplies 2 values."""
 
-Package = RepoBuildTools.PackageFuncFactory(this_dir, app)
-Publish = RepoBuildTools.PublishFuncFactory(this_dir, app)
+    sys.stdout.write(str(Math.Mult(x, y)))
 
-BuildBinary = RepoBuildTools.BuildBinaryFuncFactory(
-    this_dir,
-    PathEx.EnsureFile(src_dir / "BuildBinary.py"),
-    app,
-)
 
-CreateDockerImage = RepoBuildTools.CreateDockerImageFuncFactory(
-    this_dir,
-    app,
-)
+# ----------------------------------------------------------------------
+@app.command("Div")
+def Div(
+    x: int,
+    y: int,
+) -> None:
+    """Divides 1 value by another."""
+
+    sys.stdout.write(str(Math.Div(x, y)))
+
+
+# ----------------------------------------------------------------------
+@app.command("Version")
+def Version() -> None:
+    """Prints the version of the package."""
+
+    sys.stdout.write(__version__)
 
 
 # ----------------------------------------------------------------------
 # ----------------------------------------------------------------------
 # ----------------------------------------------------------------------
 if __name__ == "__main__":
-    sys.exit(app())
+    app()  # pragma: no cover
