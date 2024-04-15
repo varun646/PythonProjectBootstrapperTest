@@ -1,9 +1,0 @@
-typer~=0.9
-
-[dev]
-dbrownell_DevTools
-
-[package]
-build==1.*
-cx_Freeze==6.*
-twine==4.*

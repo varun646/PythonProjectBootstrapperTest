@@ -1,3 +1,0 @@
-BuildBinary
-PyProjTestBootstrp1
-PythonProjectBootstrapperTesting

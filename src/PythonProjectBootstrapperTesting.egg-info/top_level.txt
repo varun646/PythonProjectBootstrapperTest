@@ -1,2 +1,0 @@
-BuildBinary
-PythonProjectBootstrapperTesting

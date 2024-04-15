@@ -1,2 +1,0 @@
-[console_scripts]
-PyProjTestBootstrp1 = PyProjTestBootstrp1:EntryPoint.app

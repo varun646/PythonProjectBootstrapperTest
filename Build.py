@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 import typer
+import math
 
 from dbrownell_Common import PathEx
 from dbrownell_DevTools.RepoBuildTools import Python as RepoBuildTools
