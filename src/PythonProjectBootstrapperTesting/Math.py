@@ -27,6 +27,10 @@ def Div(x, y):
     return x / y
 
 
+def Doub(x):
+    return x * 2
+
+
 # ----------------------------------------------------------------------
 def Mod(x, y):
     return x % y
